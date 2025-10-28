@@ -1,15 +1,18 @@
 # Data_Cleaning_Excel
 ---------------------------------------
 Scop
+---------------------------------------
 
 Acest fișier descrie pașii urmați pentru curățarea și pregătirea setului de date înainte de analiză.
 Obiectivul a fost să obținem un fișier coerent, complet și ușor de analizat, fără erori de formatare sau inconsistențe.
 
 ---------------------------------------
 1. Verificarea structurii inițiale
+---------------------------------------
 
 ---------------------------------------
 2. Curățarea pe coloane
+---------------------------------------
 Order ID
 *Verificat că nu există valori lipsă sau duplicate.
 *Coloana a fost păstrată nemodificată, deoarece reprezintă identificator unic al comenzii.
@@ -52,6 +55,7 @@ Region
 
 -----------------------------------------------------------
 3. Curățarea generală
+-----------------------------------------------------------
 Eliminat rândurile complet goale.
 Verificate duplicatele la nivel de rând complet.
 Denumirile coloanelor au fost standardizate (fără spații inutile).
@@ -59,7 +63,8 @@ Toate valorile numerice au fost formatate coerent (număr, fără text).
 Toate datele au fost salvate într-un format compatibil (.xlsx).
 
 -----------------------------------------------------------
-5. Rezultat final
+4. Rezultat final
+-----------------------------------------------------------
 Setul de date rezultat este:
 Fără valori lipsă esențiale.
 Cu formate de date, text și numere coerente.
